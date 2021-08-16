@@ -1,0 +1,36 @@
+mport org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class StudentController {
+@Autowired studentservice studentservice;
+@PostMapping("/istudent")
+public String insert(@RequestBody student student) {
+int i= studentservice.insert(student);
+if (i>0) {
+return "inserted";
+}else {
+return "not inserted";
+}
+
+}
+@GetMapping("/")
+public String test() {
+return "hello";
+}
+@PostMapping("/ustudent")
+public String update(@RequestBody  student student)
+{
+int i=studentservice.update(student);
+if(i>0)
+{
+return "updated";
+}
+else {
+return "not updated";
+}
+}
+}
