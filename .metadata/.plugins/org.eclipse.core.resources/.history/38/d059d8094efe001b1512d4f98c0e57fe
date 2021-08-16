@@ -1,0 +1,17 @@
+package com.example.demo.ex;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@Autowired
+ExService es;
+@RestController
+public class ExController {
+	@PostMapping("\value")
+	public String insert(@RequestBody Example ex)
+	{
+		return es.insert(ex);
+	}
+}

@@ -1,0 +1,27 @@
+package com.example.demo.ex;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Service;
+
+@Service
+public class ExService {
+	@Autowired
+	JdbcTemplate jt;
+	public String insert(Example ex)
+	{
+		String sql="insert into student values(?,?,?)";
+		int id=ex.getId();
+		String name=ex.getName();
+		int phoneno=ex.getPhoneno();
+		int result=jt.update(sql,id,name,phoneno);
+		if(result>0)
+		{
+			return "data inserted successfully";
+		}
+		else
+		{
+			return "data inserted failed";
+		}
+	}
+}
