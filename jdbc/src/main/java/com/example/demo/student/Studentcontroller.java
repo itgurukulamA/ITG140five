@@ -52,7 +52,7 @@ import org.springframework.web.bind.annotation.RestController;
 	@RequestMapping("/delete")
 	public String delete(@RequestBody  student s)
 	{
-	int i=studentservice.update(s);
+	int i=studentservice.delete(s);
 	if(i>0)
 	{
 	return "deleted";

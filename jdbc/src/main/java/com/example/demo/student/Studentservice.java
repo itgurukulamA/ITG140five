@@ -1,8 +1,4 @@
 package com.example.demo.student;
-
-
-
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -27,10 +23,10 @@ return t.update(c,s.getId(),s.getName(),s.getMail(),s.getPhno());
 
 public int update(student s) {
 // TODO Auto-generated method stub
-String sql="update student set name=? where id=?";
-System.out.println(s.getName()+"  "+s.getId());
-int i= t.update(sql,s.getName(),s.getId()); 
-if(i>0)
+	String sql="update student set name=? where id=?";
+		System.out.println(s.getName()+"  "+s.getId());
+	 int i= t.update(sql,s.getName(),s.getId()); 
+	if(i>0)
 {
 	System.out.println("data updated");
 	return i;
@@ -58,7 +54,7 @@ public List getAll() {
 	Map<String, Object> dataMap = null;
 	List<Map> responseList = new ArrayList<Map>();
 	List<Map<String, Object>> dataList = new ArrayList<Map<String, Object>>();
-	String sql = "select id,name,mail,phno from student";
+	String sql = "select * from student";
 
 	try {
 		dataList = t.queryForList(sql);
@@ -79,12 +75,9 @@ public List getAll() {
 	
 	return responseList;
 }
-public  void delete(student s) {
-	String SQL = "delete from Student where id = ?";
-	t.update(SQL, s);
-	System.out.println("record deleted");
-	return;
+public  int  delete(student s) {
+	String SQL = "delete from student where (id = "+ s.getId()+")";
+	return t.update(SQL);	
 }
 }
-
 
