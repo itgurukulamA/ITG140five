@@ -1,0 +1,12 @@
+
+public class Arrayindexoutofbound {
+
+	public static void main(String[] args) {
+		String arr[]= {"swethak","saikiran","santosh","venky"};
+		for(int i=0;i<=arr.length;i++) {
+			System.out.println(arr[i]);
+			
+		}
+	}
+
+}

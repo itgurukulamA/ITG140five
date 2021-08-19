@@ -1,0 +1,6 @@
+
+spring.mail.host=smtp.mailtrap.io
+spring.mail.port=2525
+spring.mail.username=0410a3a58819ea
+spring.mail.password=af8fdc10cfbdb8
+

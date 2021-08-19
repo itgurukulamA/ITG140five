@@ -1,0 +1,13 @@
+
+spring.mail.host=smtp.mailtrap.io
+spring.mail.port=2525
+spring.mail.username=0410a3a58819ea
+spring.mail.password=af8fdc10cfbdb8
+
+# Other properties
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.connectiontimeout=5000
+spring.mail.properties.mail.smtp.timeout=5000
+spring.mail.properties.mail.smtp.writetimeout=5000
+
+spring.mail.properties.mail.smtp.starttls.enable=true

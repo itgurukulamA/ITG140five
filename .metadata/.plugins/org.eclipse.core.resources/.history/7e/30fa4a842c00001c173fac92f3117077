@@ -1,0 +1,12 @@
+//All thread methods
+public class Abc extends Thread{
+public void run() {
+	System.out.println("thread is running");
+}
+	public static void main(String[] args) {
+		Abc t1=new Abc();
+		t1.start();
+
+	}
+
+}

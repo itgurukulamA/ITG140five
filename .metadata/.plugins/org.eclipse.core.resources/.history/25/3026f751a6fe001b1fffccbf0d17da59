@@ -1,0 +1,6 @@
+package com.example.demo.Pagination;
+
+@Rest
+public class PageController {
+
+}

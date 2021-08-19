@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+public class ArrayListExample {
+public static void main(String[] args) {
+	ArrayList<String> al= new ArrayList<String>();
+	al.add("swethak");
+	al.add("santosh");
+	al.add("saikiran");
+System.out.println(al);
+}
+}

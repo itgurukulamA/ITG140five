@@ -1,0 +1,10 @@
+
+public class ClassNot {
+
+	public static void main(String[] args) {
+		Abcdef a = new Abcdef();
+		
+
+	}
+
+}

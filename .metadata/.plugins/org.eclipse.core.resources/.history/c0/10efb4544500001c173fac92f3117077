@@ -1,0 +1,33 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+
+
+public class ArrayListExample {
+public static void main(String[] args) {
+	ArrayList<String> al= new ArrayList<String>();
+	al.add("swethak");
+	al.add("santosh");
+	al.add("saikiran");
+/*System.out.println(al);
+}
+}*/
+	/*Iterator itr= al.iterator();
+	while(itr.hasNext()) {
+		System.out.println(itr.next());
+	}
+		
+}
+}*/
+	/*for(String names:al) {
+		System.out.println(names);
+	}
+		
+	}
+}*/
+	System.out.println("returning element:"+al.get(1));
+	al.set(2,"venky");
+	for(String names:al) {
+		System.out.println(names);
+	}
+	
+}}
