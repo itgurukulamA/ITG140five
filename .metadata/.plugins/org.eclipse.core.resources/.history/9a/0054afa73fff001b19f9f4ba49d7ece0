@@ -1,0 +1,15 @@
+package Exaception;
+
+public class NullException {
+	public static void main(String args[])
+	{
+		try
+		{
+		String n=null;
+		System.out.println(n.length());
+		}catch(NullException e)
+		{
+			System.out.println(e);
+		}
+	}
+}

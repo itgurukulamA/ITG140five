@@ -1,0 +1,17 @@
+package Collections;
+import java.util.*;
+public class Demo4 {
+		public static void main(String args[])
+		{
+			Vector n=new Vector();
+			n.add("laxman");
+			n.add(12);
+			n.add(76.87);
+			n.add('d');
+			Iterator m=n.iterator();
+			while(m.hasNext())
+			{
+				System.out.println(m.next());
+			}
+		}
+}

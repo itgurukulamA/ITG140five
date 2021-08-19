@@ -1,0 +1,22 @@
+package StringEx;
+public class CommonWordsEx {
+
+	public static void main(String[] args) {
+		String a[]=new String[3];
+		String b[]=new String[3];
+		a[0]="laxman";
+		a[1]="ganesh";
+		a[2]="ravi";
+		b[0]="raju";
+		b[1]="laxman";
+		b[2]="surya";
+		for(int i=0;i<a.length;i++)
+		{
+			System.out.println(a[i]);
+		}
+		for(int j=0;j<b.length;j++)
+		{
+			System.out.println(b[j]);
+		}
+}
+}

@@ -1,0 +1,22 @@
+package StringEx;
+
+import java.util.*;
+
+public class CommonWordsEx {
+	public static void main(String[] args) {
+		System.out.println("Enter a String");
+		Scanner n=new Scanner(System.in);
+		String n1=n.nextLine();
+		String n2=n.nextLine();
+		StringTokenizer st=new StringTokenizer(n1,n2);
+		while(st.hasMoreTokens())
+		{
+			System.out.println(st.nextToken());
+		}
+		while(st.hasMoreTokens())
+		{
+			System.out.println(st.nextToken());
+		}
+		
+}
+}

@@ -1,0 +1,8 @@
+package Exaception;
+
+public class CoustomEx extends Exception {
+	public static void main(String args[])
+	{
+		
+	}
+}

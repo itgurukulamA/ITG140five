@@ -1,0 +1,9 @@
+package Exaception;
+import java.io.File;
+public class Demo6 {
+	public static void main(String rags[])
+	{
+		File file=new File("Demo1.txt");
+		FileReader fr = new FileReader(file);
+	}
+}

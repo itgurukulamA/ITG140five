@@ -1,0 +1,20 @@
+package Exaception;
+
+public class Demo2 {
+	public static void main(String args[])
+	{
+		try
+		{
+		String n=null;
+		System.out.println(n.length());
+		}catch(NullPointerException e)
+		{
+			System.out.println(e);
+		}
+		finally
+		{
+			String n="laxman";
+			System.out.println("The length of the String" +n.length());
+		}
+	}
+}

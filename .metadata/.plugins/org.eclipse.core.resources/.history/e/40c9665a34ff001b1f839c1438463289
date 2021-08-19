@@ -1,0 +1,17 @@
+package Exaception;
+
+public class Demo5 {
+	public static void main(String args[])
+	{
+		String a[]=new String[5];
+		a[0]="laxman";
+		a[1]="suresh";
+		a[2]="2145";
+		a[3]="3265.64";
+		a[4]="sriram";
+		for(int i=0;i<a.length;i++)
+		{
+			System.out.println(a[i]);
+		}
+	}
+}

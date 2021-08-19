@@ -1,0 +1,17 @@
+package Exaception;
+
+public class Demo5 {
+	public static void main(String args[])
+	{
+		try
+		{
+		String s="hello good Morning every one";
+		System.out.println(s.charAt(8));
+		System.out.println(s.length());
+		System.out.println(s.substring(68));
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+}

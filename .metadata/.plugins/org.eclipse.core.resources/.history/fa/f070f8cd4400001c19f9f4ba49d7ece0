@@ -1,0 +1,21 @@
+package Collections;
+import java.util.*;
+public class Demo1 {
+public static void main(String args[])
+{
+	List n=new ArrayList();
+	n.add(12);
+	n.add("laxman");
+	n.add(456.38);
+	n.add("Suresh");
+	n.add('r');
+	n.add(12);
+	n.add("laxman");
+	Iterator itr=n.iterator();
+	while(itr.hasNext())
+	{
+		System.out.println(itr.next());
+	}
+	System.out.println(n.remove(3));
+}
+}

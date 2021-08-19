@@ -1,0 +1,17 @@
+package StringEx;
+
+import java.util.Scanner;
+
+public class CommonWordsEx {
+
+	public static void main(String[] args) {
+		System.out.println("Enter a String");
+		Scanner n=new Scanner(System.in);
+		String s1=n.nextLine();
+		String s2=n.nextLine();
+		String s3=s1.trim();
+		String s4=s2.trim();
+		System.out.println(s3);
+		System.out.println(s4);
+}
+}

@@ -1,0 +1,14 @@
+package Collections;
+import java.util.*;
+public class Demo2 {
+	public static void main(String args[])
+	{
+		List n=new ArrayList();
+		n.add("laxman");
+		n.add(0,"suresh");
+		n.add(1,"234");
+		//n.clear();
+		System.out.println(n);
+		n.add("ram");
+	}
+}

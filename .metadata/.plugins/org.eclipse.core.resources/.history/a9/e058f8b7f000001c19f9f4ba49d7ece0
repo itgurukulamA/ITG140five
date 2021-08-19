@@ -1,0 +1,17 @@
+package Collections;
+import java.util.*;
+public class Demo12 {
+		public static void main(String args[])
+		{
+			Map<Integer,String> m=new LinkedHashMap();
+			m.put(45,"taniya");
+			m.put(34,"ruhi");
+			m.put(23,"jai");
+			m.put(12,"rakesh");
+			m.put(2,"34");
+			for(Map.Entry<Integer, String> l:m.entrySet())
+			{
+				System.out.println(l.getKey()+" "+l.getValue());
+			}
+		}
+}

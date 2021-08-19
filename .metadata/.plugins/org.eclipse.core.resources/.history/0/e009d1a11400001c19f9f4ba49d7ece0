@@ -1,0 +1,28 @@
+package ThreadsEx;
+
+class ThEx1 extends Thread
+{
+	public ssvoid run()
+	{
+		for(int i=0;i<=5;i++)
+		{
+			System.out.println(i);
+		}
+		try
+		{
+			Thread.sleep(500);
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+}
+public class Demo6
+{
+	public static void main(String args[])
+	{
+		ThEx1 n=new ThEx1();
+		n.start();
+	}
+}

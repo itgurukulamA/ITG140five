@@ -1,0 +1,21 @@
+package ThreadsEx;
+
+class ThEx1
+{
+	public synchronized void display()
+	{
+		for(int i=0;i<=2;i++)
+		{
+			System.out.println(i);
+		}
+	}
+}
+class ThEx2 extends Thread
+{
+public static void main(String args[])
+{
+	ThEx1 e=new ThEx1();
+	e.display();
+}
+	
+}

@@ -1,0 +1,11 @@
+package Collections;
+import java.util.*;
+public class Demo10 {
+		public static void main(String args[])
+		{
+			Map<Integer,Object> m=new HashMap();
+			m.put(1,"laxman");
+			m.put(null, "suresh");
+			m.put(null,"rakesh");
+		}
+}

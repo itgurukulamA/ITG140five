@@ -1,0 +1,21 @@
+!SESSION 2021-08-19 20:21:46.068 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+This is a continuation of log file /home/miracle/Sriram/.metadata/.bak_0.log
+Created Time: 2021-08-19 20:22:06.254
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2021-08-19 20:22:06.254
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2021-08-19 20:22:06.254
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-19 20:22:24.920
+!MESSAGE Project facet jst.web has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-19 20:22:24.920
+!MESSAGE Project facet jst.webfragment has not been defined. It is used in plugin org.eclipse.jst.j2ee.
