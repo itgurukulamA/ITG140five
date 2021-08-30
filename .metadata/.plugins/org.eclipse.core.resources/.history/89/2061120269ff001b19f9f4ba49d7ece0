@@ -1,4 +1,0 @@
-package Exaception;
-public class CoustomEx extends Exception
-{
-}
