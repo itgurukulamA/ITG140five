@@ -1,0 +1,10 @@
+09-02-2021 18:50:54 DEBUG o.s.jdbc.core.JdbcTemplate (537) : Executing SQL update [delete from student where id = 8]
+09-02-2021 18:50:54 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
+09-02-2021 18:50:54 TRACE o.s.jdbc.core.JdbcTemplate (548) : SQL update affected 0 rows
+09-02-2021 18:50:54 WARN  c.e.demo.student.Studentcontroller (75) : data not deleted
+09-02-2021 18:51:05 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
+09-02-2021 18:51:12 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
+09-02-2021 18:51:17 DEBUG o.s.jdbc.core.JdbcTemplate (537) : Executing SQL update [delete from student where id = 8]
+09-02-2021 18:51:17 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
+09-02-2021 18:51:17 TRACE o.s.jdbc.core.JdbcTemplate (548) : SQL update affected 0 rows
+09-02-2021 18:51:17 WARN  c.e.demo.student.Studentcontroller (75) : data not deleted
